@@ -1,0 +1,7 @@
+asm
+assets
+*.ld
+*.d
+undefined*
+*.n64
+*.z64
