@@ -1,15 +1,3 @@
-#ifndef TRUE
-#define TRUE    1
-#endif
-
-#ifndef FALSE
-#define FALSE   0
-#endif
-
-#ifndef NULL
-#define NULL    0
-#endif
-
 typedef unsigned char       u8;     /* unsigned  8-bit */
 typedef unsigned short      u16;    /* unsigned 16-bit */
 typedef unsigned long       u32;    /* unsigned 32-bit */
@@ -50,10 +38,18 @@ void func_80000AF0(void* arg0, void* arg1, s16 arg2, s8 arg3);
 void func_80001034(s32 arg0);
 void func_800130A0(s32);
 void func_8001C580(void);
+void func_8001C5B0(u32 arg0, s32 arg1);
 void func_8001C740(s32);
+void func_8001CAC0(void arg0, s32 arg1, s32 arg2);
 void func_8001CC50(s16, s32 arg2);
 s32 func_80021AA0();
 void func_800255B0(s32, void* , void* , s16);
+void func_8001C890(u32*, u32*, u32);                       
+void func_8001C990(u32*, u32*, u32);                         
+s32 func_800219B0(s32, s32*, s32);  
+void func_8001C660(u32 arg0, s32 arg1);
+void func_80021F60(s32 arg0, s32 arg1);   
+s32 func_80021C40(s32 arg0, s32 arg1, s32 arg2);
 
 extern f32 D_800307B0;
 extern f32 D_80037200;

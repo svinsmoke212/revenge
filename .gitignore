@@ -1,4 +1,5 @@
 assets
+ignore
 *.ld
 *.d
 undefined*
